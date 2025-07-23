@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1hiopsqlm5lmmegm275pvinhddjjolke6irf73ja",
+  "Issue Number": "25",
+  "Client": {
+    "Name": "Laughstorage Data Portal",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.cosmos.esa.int/web/esdc/home",
+    "Social Media": "Laughstorage_work",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The European Space Astronomy Centre Science Data Centre (ESDC) is a hub for accessing and analyzing scientific data produced by ESA’s space science missions. It provides long-term data preservation, public access to mission archives, and tools for exploration and analysis.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "•\tOpen Access to data from major ESA missions including:\n\t•\tGaia (astrometry and stellar catalog)\n\t•\tXMM-Newton (X-ray astronomy)\n\t•\tHerschel (infrared observations)\n\t•\tINTEGRAL (gamma-ray astronomy)\n\t•\tPlanck (cosmic microwave background)\n\t•\tSolar Orbiter (solar physics)\n\t•\tSearchable Archives: Users can query mission-specific databases using custom filters, coordinates, or object names.\n\t•\tDownloadable Datasets: Data are available in formats like FITS, CSV, and VOTable, suitable for scientific analysis.\n\t•\tVisualization and Analysis Tools: The portal includes interactive charts, sky maps, and API access for automated workflows.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "I will first download the dataset and classify the content into different categories. Each data type will be assigned a unique label and stored accordingly. The data will then be segmented, compressed, and packaged using the official built-in tools provided by Lotus (Filecoin’s reference implementation).",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.cosmos.esa.int/web/xmm-newton/xsa#download\nhttps://www.cosmos.esa.int/web/xmm-newton/observation-data-status\nhttps://www.cosmos.esa.int/web/integral-knowledge-transfer-workshop/workshop-legacy",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02826762 hk\nf02827135 hk\nf02827010 CN\nf02825281 CN\nf03610683 hk\nf03623232 hk\nf03601967 KR\nf03601993 KR",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "400TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-23 11:58:41.725747558 UTC",
+    "Validated By": "amiclan666",
+    "Active": true,
+    "Updated At": "2025-07-23 11:58:41.725743990 UTC",
+    "Active Request ID": "bcd1f1a5-724e-4e8f-8489-f7d66e74042b",
+    "On Chain Address": "f1hiopsqlm5lmmegm275pvinhddjjolke6irf73ja",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "bcd1f1a5-724e-4e8f-8489-f7d66e74042b",
+      "Request Type": "First",
+      "Created At": "2025-07-23 11:56:53.826082199 UTC",
+      "Updated At": "2025-07-23 11:56:53.826083405 UTC",
+      "Active": false,
+      "Allocation Amount": "439804651110400 B",
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Created At": "2025-07-23 11:58:37.786000000 UTC",
+          "Message CID": "bafy2bzacebzoummpmoagpuiwgipb3jwnvawehzkrsuiafzkaidw6q57xcu6ek"
+        }
+      ]
+    }
+  ]
+}
