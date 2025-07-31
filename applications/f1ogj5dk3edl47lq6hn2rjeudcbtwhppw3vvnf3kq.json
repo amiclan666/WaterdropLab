@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ogj5dk3edl47lq6hn2rjeudcbtwhppw3vvnf3kq",
+  "Issue Number": "30",
+  "Client": {
+    "Name": "Roboflow 100",
+    "Region": "Korea, Republic of",
+    "Industry": "Education & Training",
+    "Website": "https://github.com/roboflow/rf100-vl/",
+    "Social Media": "https://rf100-vl.org/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "RF100-VL is a large-scale collection of 100 multi-modal datasets with diverse concepts not commonly found in VLM pre-training.\n\nThe benchmark includes images, with corresponding annotations, from seven domains: flora and fauna, sport, industry, document processing, laboratory imaging, aerial imagery, and miscellaneous datasets related to various use cases for which detection models are commonly used.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "RF100-VL introduces 100 open source datasets containing object detection bounding boxes and multimodal few shot instruction with visual examples and rich textual descriptions across novel image domains. annotations across seven domains, including aerial, biological, and industrial imagery.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Sure! Here’s the English translation of the paragraph:\n\n⸻\n\nTo meet the structural requirements of decentralized storage and support model training needs, we performed standardized cleaning, augmentation, and packaging of open-source datasets such as RF100-VL. We used Pillow and OpenCV for image format conversion and resizing, Albumentations for batch image augmentation (e.g., rotation, blur, noise injection), and Real-ESRGAN for high-resolution upscaling. Additionally, Stable Diffusion and ControlNet were applied to generate stylistically diverse synthetic images. Multilingual annotations were added using DeepL API and custom scripts to enhance multimodal value. Finally, we packaged the images and annotations into 32GiB/64GiB shards using our custom tooling, making them suitable for uploading to the Filecoin network and enabling future retrieval verification. This expansion does not involve malicious data inflation but is a reasonable and traceable process based on real-world usage scenarios.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Data Loader Name\tDataset Name\nget_rf100vl_fsod_projects\tRF100-VL-FSOD\nget_rf100vl_projects\tRF100-VL\nget_rf20vl_fsod_projects\tRF20-VL-FSOD\nget_rf20vl_full_projects\tRF20-VL\ndownload_rf100vl_fsod\tRF100-VL-FSOD\ndownload_rf100vl\tRF100-VL\ndownload_rf20vl_fsod\tRF20-VL-FSOD\ndownload_rf20vl_full\tRF20-VL\n\nfrom rf100vl import download_rf100vl\n\ndownload_rf100vl(path=\"./rf100-vl/\")",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03620433 US\nf03620434 US\nf03620442 JAP\nf03620441 JAP\nf03620447 SG\nf03620446 SG\nf03620690 KR",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "300TiB",
+    "Replicas": 7,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-07-31 08:38:48.205952753 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ogj5dk3edl47lq6hn2rjeudcbtwhppw3vvnf3kq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
