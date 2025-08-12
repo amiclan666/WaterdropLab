@@ -1,41 +1,41 @@
-# Filecoin Plus DataCap Allocator - Client Applications
+# Waterdrop Fil+ DataCap Allocator - Client Application
 
-Welcome to the GitHub repository dedicated to managing the Lifecycle Data Notations (LDN) Applications for a specific Filecoin Plus DataCap allocator team. This repository serves as a public ledger for DataCap allocation requests and tracking, facilitating transparency and efficiency in the process.
+Welcome to the GitHub code repository dedicated to managing lifecycle data symbol (LDN) applications for specific Waterdrop Fil+ DataCap allocator teams. This code base serves as a common ledger for DataCap allocation requests and tracking, enhancing the transparency and efficiency of the process.
 
 ## Overview
 
-Filecoin Plus (Fil+) enhances the utility of Filecoin by not just storing data, but also verifying the usefulness of the data being stored. DataCap is allocated to clients based on their storage needs and the value their data brings to the Filecoin network. Our team, operating under a shared multisig wallet, acts as an allocator of DataCap, assessing and verifying client requests.
+Filecoin Plus (Fil+) not only stores data but also verifies the practicality of the stored data, thereby enhancing the practicality of Filecoin. DataCap allocates to customers based on their storage requirements and the value their data brings to the Filecoin network. Our team uses a shared multi-signature wallet to act as a distributor for DataCap, evaluating and verifying customer requests.
 
-## How It Works
+Working principle
 
-Instead of a traditional code repository, this GitHub repo functions as a structured ledger to handle DataCap requests through Client Applications. Each application's lifecycle, from request to allocation, is publicly documented here.
+This GitHub codebase is not a traditional codebase but serves as a structured ledger that processes DataCap requests through client applications. The lifecycle of each application (from request to allocation) is publicly recorded here.
 
-### Requesting DataCap
+Apply for DataCap
 
-1. **Open an Issue:** Clients looking to request DataCap must open a new issue in this repository. The issue should include detailed information about the project requiring DataCap. Essential information includes but is not limited to:
-   - Project name and description
-   - Amount of DataCap requested
-   - Justification for the DataCap amount
-   - Information about the data owner for KYC
+1. ** Submit Issue** : Customers who wish to apply for DataCap must submit a new Issue in this codebase. The Issue should contain detailed information about the project that requires a DataCap. Basic information includes but is not limited to:
+- Project name and description
+The number of datacaps applied for
+The reason for the number of datacaps
+- KYC number applicant information
 
-2. **Filling the Application Template:** An issue template will guide clients through submitting the necessary information for their DataCap request.
+2. ** Fill in the application template ** : The Issue template will guide customers to submit the information required for the DataCap application.
 
-### Review and Allocation Process
+Review and allocation process
 
-1. **Initial Review:** Once an issue is opened, our allocator team will conduct an initial review to ensure all necessary information is provided.
-2. **Discussion & Clarification:** The team may engage in discussions within the issue thread for clarifications or additional information.
-3. **Decision:** The allocator team will make a decision on the DataCap request. If approved, the process moves to the allocation phase.
+1. ** Preliminary Review ** : After the Issue is submitted, our allocation team will conduct a preliminary review to ensure that all necessary information has been provided.
+2. ** Discussion and Clarification ** : The team may discuss in the Issue discussion thread to clarify or obtain more information.
+3. ** Decision ** : The allocation team will make a decision on the DataCap application. If the application is approved, the process will enter the allocation stage.
 
-### Managing the Client Application Lifecycle
+Manage the client application lifecycle
 
-- Each Client Application's lifecycle is tracked through a `.json` file in this repository, uniquely associated with the client's issue.
-- The `.json` file is created when an application is initially approved for allocation and is updated through pull requests as more DataCap is allocated or as the application status changes.
-- This structured approach ensures transparency and traceability for both clients and the allocator team.
+The lifecycle of each client application is tracked through the '.json 'file in this repository, which is uniquely associated with the client's issues.
+The '.json 'file is created when the application first receives allocation approval and is updated through pull requests as more datacaps are allocated or as the application state changes.
+This structured approach ensures transparency and traceability for both the client side and the allocation team.
 
-## Code of Conduct
+Code of Conduct
 
-This repository operates under a Code of Conduct to ensure a respectful and productive environment for all participants. By participating in this project, you agree to abide by its terms.
+This repository adheres to a code of conduct to ensure a respectful and efficient environment for all participants. By participating in this project, you agree to abide by its terms.
 
----
+--
 
-We look forward to facilitating an efficient and transparent process for DataCap allocations within the Filecoin Plus program. Thank you for your interest and participation.
+We look forward to providing an efficient and transparent process for DataCap allocation in the Filecoin Plus program. Thank you for your attention and participation.
