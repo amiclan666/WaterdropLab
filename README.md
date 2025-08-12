@@ -26,11 +26,13 @@ Review and allocation process
 2. ** Discussion and Clarification ** : The team may discuss in the Issue discussion thread to clarify or obtain more information.
 3. ** Decision ** : The allocation team will make a decision on the DataCap application. If the application is approved, the process will enter the allocation stage.
 
-Manage the client application lifecycle
+Requirement
 
-The lifecycle of each client application is tracked through the '.json 'file in this repository, which is uniquely associated with the client's issues.
-The '.json 'file is created when the application first receives allocation approval and is updated through pull requests as more datacaps are allocated or as the application state changes.
-This structured approach ensures transparency and traceability for both the client side and the allocation team.
+1. The SPs must satisfy Spark's requirements for retrieving and storing unsealed files.
+2. The number of backups must not be less than 5 or more than 10, and SPs must not be distributed in less than 2 regions.
+3. KYC must be completed via email or other means.
+4. It must meet the download requirements.
+5. The reports provided by datacap-bot must be adhered to.
 
 Code of Conduct
 
@@ -39,3 +41,5 @@ This repository adheres to a code of conduct to ensure a respectful and efficien
 --
 
 We look forward to providing an efficient and transparent process for DataCap allocation in the Filecoin Plus program. Thank you for your attention and participation.
+
+Contact: cos1048181485@gmail.com or @coso on Filecoin Slack
