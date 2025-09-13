@@ -35,12 +35,12 @@
     "Weekly Allocation": "600PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2025-07-23 13:18:39.989248499 UTC",
     "Validated By": "amiclan666",
-    "Active": true,
-    "Updated At": "2025-07-23 13:18:39.989244939 UTC",
-    "Active Request ID": "8f244459-de83-43ff-93e7-78b3feb3331f",
+    "Active": false,
+    "Updated At": "2025-09-13 08:14:27.466875891 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1iqjyqdpjuqhjkh6gtst43b6ptqmd3l3c5csf3wi",
     "Multisig Address": "false",
     "edited": false
