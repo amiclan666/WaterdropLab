@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1y2dhv5zrzmy7vtam2idermejkgqv2ll6kbg27jq",
   "Issue Number": "39",
+  "Client Contract Address": "f410fq7hups4hhh2befqqnik7jeeb6njggdycnwocdmq",
   "Client": {
     "Name": "Singapore NTU",
     "Region": "Singapore",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-13 10:34:39.995704664 UTC",
+    "Validated By": "amiclan666",
     "Active": true,
-    "Updated At": "2025-09-13 08:46:08.924610306 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-13 10:34:39.995708830 UTC",
+    "Active Request ID": "0f314b47-54c0-421d-babb-51b4e45fdc7a",
     "On Chain Address": "f1y2dhv5zrzmy7vtam2idermejkgqv2ll6kbg27jq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "0f314b47-54c0-421d-babb-51b4e45fdc7a",
+      "Request Type": "First",
+      "Created At": "2025-09-13 10:34:39.995711204 UTC",
+      "Updated At": "2025-09-13 10:34:39.995712618 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
