@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-09-13 10:34:39.995704664 UTC",
+    "Validated At": "2025-09-14 02:22:40.714471631 UTC",
     "Validated By": "amiclan666",
     "Active": true,
-    "Updated At": "2025-09-13 10:34:39.995708830 UTC",
+    "Updated At": "2025-09-14 02:22:40.714463419 UTC",
     "Active Request ID": "0f314b47-54c0-421d-babb-51b4e45fdc7a",
     "On Chain Address": "f1y2dhv5zrzmy7vtam2idermejkgqv2ll6kbg27jq",
     "Multisig Address": "false",
@@ -55,6 +55,44 @@
       "Active": true,
       "Allocation Amount": "281474976710656 B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "f1df9c1d-9d54-4cec-a319-93ec3a107df4",
+      "Created At": "2025-09-14 02:22:40.714445703 UTC",
+      "Updated At": "2025-09-14 02:22:40.714453028 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3289271,
+        3315260,
+        3367915,
+        3542777,
+        3559187,
+        3607310,
+        3100006,
+        3100007
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Set Max Deviation CID": "bafy2bzaceavy3vwvo7gqwgzl4efi5et2xijighdwnh6u4jcgrozsowbmlccbs",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceadtafjofswxy5w2daflh5dfc76mke5bo6dzrknzx24y2uraya2eg": [
+              "3289271 ",
+              "3315260 ",
+              "3367915",
+              "3542777",
+              " 3559187 ",
+              "3607310",
+              " 3100006",
+              "3100007"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
