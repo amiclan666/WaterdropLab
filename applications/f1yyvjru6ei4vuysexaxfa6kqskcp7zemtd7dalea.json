@@ -3,7 +3,7 @@
   "ID": "f1yyvjru6ei4vuysexaxfa6kqskcp7zemtd7dalea",
   "Issue Number": "42",
   "Client": {
-    "Name": "National",
+    "Name": "National Institutes of Health",
     "Region": "Afghanistan",
     "Industry": "Life Science / Healthcare",
     "Website": "https://github.com/awslabs/open-data-docs/tree/main/docs/1000genomes",
@@ -12,9 +12,9 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "Data from the 1000 Genomes Project is now available without embargo, following the final publication from the project. Use of the data should be cited in the usual way, with current details available at http://www.internationalgenome.org/faq/how-do-i-cite-1000-genomes-project.",
+    "Brief history of your project and organization": "The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context. The final phase of the project sequenced more than 2500 individuals from 26 different populations around the world and produced an integrated set of phased haplotypes with more than 80 million variants for these individuals.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
-    "Describe the data being stored onto Filecoin": "Data from the 1000 Genomes Project is now available without embargo, following the final publication from the project. Use of the data should be cited in the usual way, with current details available at http://www.internationalgenome.org/faq/how-do-i-cite-1000-genomes-project.",
+    "Describe the data being stored onto Filecoin": "The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context. The final phase of the project sequenced more than 2500 individuals from 26 different populations around the world and produced an integrated set of phased haplotypes with more than 80 million variants for these individuals.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "We downloaded the data from https://registry.opendata.aws/1000-genomes/, classified the content, and then used the built-in tools officially provided by Lotus (Filecoin's reference implementation) to split, compress, and package the data, and finally distributed it to SPs.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://1000genomes/ 696.8063 TiB\n\n s3://1000genomes/1000G_2504_high_coverage/additional_698_related/20130606_g1k_3202_samples_ped_population.txt\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/20200526_1000G_2504plus698_high_cov_data_reuse_README.txt\n\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988761/HG00405.final.cram.crai\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988762/HG00408.final.cram",
