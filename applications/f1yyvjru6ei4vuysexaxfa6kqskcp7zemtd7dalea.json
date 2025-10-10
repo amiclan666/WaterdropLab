@@ -1,0 +1,69 @@
+{
+  "Version": "1.3",
+  "ID": "f1yyvjru6ei4vuysexaxfa6kqskcp7zemtd7dalea",
+  "Issue Number": "42",
+  "Client Contract Address": "f410fq7hups4hhh2befqqnik7jeeb6njggdycnwocdmq",
+  "Client": {
+    "Name": "National Institutes of Health",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://github.com/awslabs/open-data-docs/tree/main/docs/1000genomes",
+    "Social Media": "http://www.internationalgenome.org/contact",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context. The final phase of the project sequenced more than 2500 individuals from 26 different populations around the world and produced an integrated set of phased haplotypes with more than 80 million variants for these individuals.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context. The final phase of the project sequenced more than 2500 individuals from 26 different populations around the world and produced an integrated set of phased haplotypes with more than 80 million variants for these individuals.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We downloaded the data from https://registry.opendata.aws/1000-genomes/, classified the content, and then used the built-in tools officially provided by Lotus (Filecoin's reference implementation) to split, compress, and package the data, and finally distributed it to SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://1000genomes/ 696.8063 TiB\n\n s3://1000genomes/1000G_2504_high_coverage/additional_698_related/20130606_g1k_3202_samples_ped_population.txt\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/20200526_1000G_2504plus698_high_cov_data_reuse_README.txt\n\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988761/HG00405.final.cram.crai\ns3://1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988762/HG00408.final.cram",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Europe, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03649204 HongKong\nf03649212 HongKong\nf03649217 Singapore\nf03649227 Singapore\nf03637821 Germany\nf03637813 Brazil",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "7 PiB",
+    "Single Size Dataset": "896 TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1 PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-10-10 04:05:45.060715436 UTC",
+    "Validated By": "amiclan666",
+    "Active": true,
+    "Updated At": "2025-10-10 04:05:45.060711780 UTC",
+    "Active Request ID": "5191e8ab-ec61-4c1c-a6d2-33e7a346dbc0",
+    "On Chain Address": "f1yyvjru6ei4vuysexaxfa6kqskcp7zemtd7dalea",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "5191e8ab-ec61-4c1c-a6d2-33e7a346dbc0",
+      "Request Type": "First",
+      "Created At": "2025-10-10 04:01:08.297530663 UTC",
+      "Updated At": "2025-10-10 04:01:08.297531741 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Created At": "2025-10-10 04:05:40.224000000 UTC",
+          "Message CID": "bafy2bzacec7ruik2vnda6nkgbhmlkcs3nmnqitardskuoramkk6du55cqt6ls",
+          "Increase allowance CID": "bafy2bzacebkodflia6sgzp24xbcwzz5u5ji6x2upoipbwxmxwdlsyqk2gu3gg"
+        }
+      ]
+    }
+  ]
+}
