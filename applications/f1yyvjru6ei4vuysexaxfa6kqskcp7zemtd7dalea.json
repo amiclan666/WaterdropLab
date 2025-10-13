@@ -36,11 +36,11 @@
     "Weekly Allocation": "1 PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-13 10:08:24.720754201 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-13 10:12:06.666230788 UTC",
     "Validated By": "amiclan666",
     "Active": true,
-    "Updated At": "2025-10-13 10:08:24.720757937 UTC",
+    "Updated At": "2025-10-13 10:12:06.666226457 UTC",
     "Active Request ID": "2cc09a9a-24c6-4a37-b0b7-a61f3bd558d9",
     "On Chain Address": "f1yyvjru6ei4vuysexaxfa6kqskcp7zemtd7dalea",
     "Multisig Address": "false",
@@ -70,9 +70,18 @@
       "Request Type": "Refill",
       "Created At": "2025-10-13 10:08:24.720762553 UTC",
       "Updated At": "2025-10-13 10:08:24.720763217 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Created At": "2025-10-13 10:12:02.851000000 UTC",
+          "Message CID": "bafy2bzacebhsaav76hubwkfysa6tosehwap323hl63kiuylngkikn5fmxnvzc",
+          "Increase allowance CID": "bafy2bzaceazkf2bqgrshfv3mrndla3k3hobmfhqw3g4s37ttschacbvo544au"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
