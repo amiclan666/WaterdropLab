@@ -25,6 +25,12 @@ Review and allocation process
 1. ** Preliminary Review ** : After the Issue is submitted, our allocation team will conduct a preliminary review to ensure that all necessary information has been provided.
 2. ** Discussion and Clarification ** : The team may discuss in the Issue discussion thread to clarify or obtain more information.
 3. ** Decision ** : The allocation team will make a decision on the DataCap application. If the application is approved, the process will enter the allocation stage.
+4. ** Distribute ** :
+   1st: max 5% (≤256 TiB)
+   2nd: 10%
+   3rd: 15%
+   4th: 20%
+   5th and beyond: 25%
 
 Requirement
 
