@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-11-26 15:10:36.805302281 UTC",
+    "Validated At": "2025-11-26 15:14:38.918930413 UTC",
     "Validated By": "amiclan666",
     "Active": true,
-    "Updated At": "2025-11-26 15:10:36.805306940 UTC",
+    "Updated At": "2025-11-26 15:14:38.918929579 UTC",
     "Active Request ID": "acd68107-e8ce-491f-acff-7a3f753a9de5",
     "On Chain Address": "f1y2dhv5zrzmy7vtam2idermejkgqv2ll6kbg27jq",
     "Multisig Address": "false",
@@ -189,6 +189,44 @@
               "3607310",
               "3100006",
               "3100007"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "5c3724a9-3320-4ca8-a608-88ac0383c047",
+      "Created At": "2025-11-26 15:14:38.918906961 UTC",
+      "Updated At": "2025-11-26 15:14:38.918911487 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099287,
+        3098965,
+        3669112,
+        3099008
+      ],
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebjspylaammy5ormqywwsggp3efzkj5rjdx46ff5i6rbcjuwjcv2y": [
+              "3099287",
+              "3098965",
+              "3669112",
+              " 3099008"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacecb3pwxvxskkxoueaebnyegonxbpkdkb2kuphcpsccnplq35p4zae": [
+              "3649227",
+              "3649217",
+              "3641964",
+              "3641984",
+              "3641974",
+              "3641955",
+              "3641951",
+              "3641915"
             ]
           }
         }
