@@ -36,11 +36,11 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-03-05 12:07:41.619259553 UTC",
+    "State": "Granted",
+    "Validated At": "2026-03-05 12:41:55.274695441 UTC",
     "Validated By": "amiclan666",
     "Active": true,
-    "Updated At": "2026-03-05 12:07:41.619258339 UTC",
+    "Updated At": "2026-03-05 12:41:55.274690593 UTC",
     "Active Request ID": "b40fbd86-c243-4550-bd01-4ba6788d4e9a",
     "On Chain Address": "f1y2dhv5zrzmy7vtam2idermejkgqv2ll6kbg27jq",
     "Multisig Address": "false",
@@ -124,9 +124,18 @@
       "Request Type": "Refill",
       "Created At": "2026-03-05 12:03:08.678623299 UTC",
       "Updated At": "2026-03-05 12:03:08.678623958 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2251799813685248B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "2251799813685248B",
+      "Signers": [
+        {
+          "Github Username": "amiclan666",
+          "Signing Address": "f1i2znbisevlalmctotghgnroprplkioss73ka24i",
+          "Created At": "2026-03-05 12:41:51.272000000 UTC",
+          "Message CID": "bafy2bzacebu5sqnxnegqkwafjohmxqaidqtg7mogoosfb3dn3gdwcaiocqwwm",
+          "Increase allowance CID": "bafy2bzaceah5rvphqdhrtzsihcyac4m2tr6jr32diecmnvq6gxqg2y2dsisms"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
